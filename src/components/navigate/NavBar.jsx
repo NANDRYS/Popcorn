@@ -1,7 +1,7 @@
-import NumResults from "./navigate/NumResults"
-import Search from "./navigate/Search"
+import {NumResults} from "./NumResults"
+import {Search} from "./Search"
 
-const NavBar  = () => {
+export const NavBar  = () => {
    return(
       <nav className="nav-bar">
    <div className="logo">
@@ -14,5 +14,3 @@ const NavBar  = () => {
    )
    
 }
-
-export default NavBar

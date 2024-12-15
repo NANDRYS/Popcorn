@@ -1,4 +1,4 @@
-const Summary = () => {
+export const Summary = () => {
    return (
     <div className="summary">
     <h2>Movies you watched</h2>
@@ -23,4 +23,3 @@ const Summary = () => {
   </div>
    ) 
 }
-export default Summary

@@ -1,4 +1,4 @@
-const Details = () => {
+export const Details = () => {
    return (
       <div className="details">
             <header>
@@ -76,4 +76,3 @@ const Details = () => {
           </div>
    ) 
 }
-export default Details
